@@ -1,0 +1,99 @@
+.contenedor {
+    padding: 5px;
+    background-color: rgb(255, 246, 234);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "header header"
+        "nav nav"
+        "contenido ads"
+        "footer footer";
+}
+.contenedor .header{
+    grid-area: header;
+    background-color: rgb(191, 220, 245);
+    text-align: center;
+}
+.contenedor .nav{
+    grid-area: nav;
+    text-align: center;
+}
+.contenedor .contenido{
+    grid-area: contenido;
+}
+.contenedor .ads{
+    grid-area: ads;
+}
+.contenedor .footer{
+    grid-area: footer;
+}
+
+.contenedor2{
+    padding: 5px;
+    background-color: rgb(255, 246, 234);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header"
+        "nav nav"
+        "contenido ads"
+        "footer footer";
+}
+.contenedor2 .header{
+    grid-area: header;
+    background-color: rgb(191, 220, 245);
+    text-align: center;
+}
+.contenedor2 .nav{
+    grid-area: nav;
+    text-align: center;
+}
+.contenedor2 .contenido{
+    grid-area: contenido;
+}
+.contenedor2 .ads{
+    grid-area: ads;
+}
+.contenedor2 .footer{
+    grid-area: footer;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p{
+    color: black;
+}
+
+.contenedor3{
+    padding: 5px;
+    background-color: rgb(255, 246, 234);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "header header"
+        "nav nav"
+        "contenido ads"
+        "footer footer";
+}
+.contenedor3 .header{
+    grid-area: header;
+    background-color: rgb(191, 220, 245);
+    text-align: center;
+}
+.contenedor3 .nav{
+    grid-area: nav;
+    text-align: center;
+}
+.contenedor3 .contenido{
+    grid-area: contenido;
+}
+.contenedor3 .ads{
+    grid-area: ads;
+}
+.contenedor3 .footer{
+    grid-area: footer;
+}
+
+
+
